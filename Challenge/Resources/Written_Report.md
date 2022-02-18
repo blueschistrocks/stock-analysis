@@ -152,18 +152,18 @@ There really are no disadvantages in refactoring the code for the client, with t
 
 ## Run Times for Original and Refactored Code
 
-![2017 Original Code Run Time](add address)
+![2017 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2017_runtime_original.png)
 
-![2018 Original Code Run Time](add address)
+![2018 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2018_runtime_original.png)
 
-![2017 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/0a3e36a576adfb34ae8c332847cf1915b875d1b6/Challenge/Resources/VBA_Challenge_2017.png)
+![2017 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/VBA_Challenge_2017.png)
 
-![2018 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/0a3e36a576adfb34ae8c332847cf1915b875d1b6/Challenge/Resources/VBA_Challenge_2018.png)
+![2018 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/VBA_Challenge_2018.png)
 
 ## Refactored Code Excel Output
 
-![2017 Refactored Code Excel Output ](add address)
-![2018 Refactored Code Excel Output ](add address)
+![2017 Refactored Code Excel Output ](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2017_Excel.png)
+![2018 Refactored Code Excel Output ](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2018_Excel.png)
 
 
 
