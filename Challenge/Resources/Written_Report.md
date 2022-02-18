@@ -152,17 +152,24 @@ There really are no disadvantages in refactoring the code for the client, with t
 
 ## Run Times for Original and Refactored Code
 
+### Original Code Run Time for 2017 Stock Data
 ![2017 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2017_runtime_original.png)
 
+### Original Code Run Time for 2018 Stock Data
 ![2018 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2018_runtime_original.png)
 
+### Refactored Code Run Time for 2017 Stock Data
 ![2017 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/VBA_Challenge_2017.png)
 
+### Refactored Code Run Time for 2018 Stock Data
 ![2018 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/VBA_Challenge_2018.png)
 
-## Refactored Code Excel Output
+## Refactored Code Excel Analysis Output 
 
+### Output for the 2017 Stock Analysis
 ![2017 Refactored Code Excel Output ](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2017_Excel.png)
+
+### Output for the 2018 Stock Analysis
 ![2018 Refactored Code Excel Output ](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2018_Excel.png)
 
 
