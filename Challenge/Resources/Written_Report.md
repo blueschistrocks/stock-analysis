@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-Steve (Client) has requested an analysis of multiple stocks over 2017 and 2018 and would like to have the Visual Basic (VBA) module that was previously submitted optimized to compete the analysis of thousands of stocks efficiently.
+Steve (Client) has requested an analysis of multiple stocks over 2017 and 2018 and would like to have the Visual Basic (VBA) module that was previously submitted optimized to complete the analysis of thousands of stocks efficiently.
 
 ## Refactoring the Code
 
