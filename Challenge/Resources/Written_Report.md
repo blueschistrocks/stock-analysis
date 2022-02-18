@@ -140,7 +140,7 @@ End Sub
 
 ## Results 
 
-The refactored code run the analysis in approximately ¼ of a second where the original code run the analysis in about 1 second, significantly faster than the original code.  This is due to the code requiring a nested For Loop and using the three output arrays. 
+The refactored code ran the analysis in approximately ¼ of a second where the original code ran the analysis in about 1 second, significantly faster than the original code.  This is due to the refactored code not requiring a nested For Loop and using the three output arrays. 
 
 ## Advantages of Refactoring
 
@@ -148,7 +148,7 @@ The advantage of refactoring the was making the code significantly faster, which
 
 ## Disadvantages of Refactoring
 
-There really are no disadvantages in refactoring the code for the client, with the exception of paying to do the refactoring, however the cost would likely be offset by the more efficient code.  I did find it difficult to do at first to do the refactoring, so it could be a disadvantage for an analysis that does not have syntax experience with VBA to do the refactoring.
+There really are no disadvantages in refactoring the code for the client, with the exception of paying someone to do the refactoring, however the cost would likely be offset by the more efficient code.  I did find it difficult at first to do the refactoring, so it could be a disadvantage for an analysis that does not have syntax experience with VBA to do the refactoring efficently.
 
 ## Run Times for Original and Refactored Code
 
