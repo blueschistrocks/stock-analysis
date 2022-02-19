@@ -167,10 +167,10 @@ A disadvantage of refactoring the original VBA is that the original VBA code wor
 Below are screenshots of the run times for the original VBA code and refactored VBA Code.
 
 ### Original VBA Code Run Time for 2017 Stock Data
-![2017 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2017_runtime_original.png)
+![2017 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/42c7cec3fe4115de7eb9e0921b33f4ad0aa7de51/Challenge/Resources/2017_runtime_original.png)
 
 ### Original VBA Code Run Time for 2018 Stock Data
-![2018 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2018_runtime_original.png)
+![2018 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/42c7cec3fe4115de7eb9e0921b33f4ad0aa7de51/Challenge/Resources/2018_runtime_original.png)
 
 ### Refactored VBA Code Run Time for 2017 Stock Data
 ![2017 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/VBA_Challenge_2017.png)
