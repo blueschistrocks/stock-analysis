@@ -8,7 +8,7 @@ Steve (Client) has requested an analysis of multiple stocks over 2017 and 2018 a
 
 The original VBA module was refactored by creating a ticker Index, three output arrays for volumes, starting prices and ending prices.  The Ticker Index was created and set to zero. The Ticker Index will allow each ticker in the ticker array to be accessed by three output arrays. Each output array was set to 12 to indicate the number of elements in the arrays to match the number of elements is in the ticker array. Setting up the output arrays in this way will allow the code to loop through the data for each ticker to retrieve the volume, starting and ending prices more efficiently, therefore excluding the need for a nested loop.  A For Loop was created to initialize the ticker Volumes to zero. A non-nested for loop was created to loop through the data worksheet. Iterations were set to loop from the first row of data through the last row of data.  The loop retrieves total volume for the current ticker and then retrieves the start price and ending price of the current ticker then lastly the loop increases the tickerIndex by one. This loop will continue until all twelve tickers have been looped through.
 
-### Code
+### Refactored VBA Code
 
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
@@ -162,23 +162,23 @@ The advantage of refactoring the original code was making the code significantly
 A disadvantage of refactoring the original VBA is that the original VBA code works well. Unless a client routinely needs to analyze thousands of stocks a VBA code that already works well for a smaller analysis could be more efficient than spending the time to refactor the code.![image](https://user-images.githubusercontent.com/89749126/154819211-006c7a00-f16d-4ad0-bd0a-8d60a88b2ae1.png)
 
 
-## Run Times for Original and Refactored Code
+## Run Times for Original and Refactored VBA Code
 
 Below are screenshots of the run times for the original VBA code and refactored VBA Code.
 
-### Original Code Run Time for 2017 Stock Data
+### Original VBA Code Run Time for 2017 Stock Data
 ![2017 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2017_runtime_original.png)
 
-### Original Code Run Time for 2018 Stock Data
+### Original VBA Code Run Time for 2018 Stock Data
 ![2018 Original Code Run Time](https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/2018_runtime_original.png)
 
-### Refactored Code Run Time for 2017 Stock Data
+### Refactored VBA Code Run Time for 2017 Stock Data
 ![2017 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/VBA_Challenge_2017.png)
 
-### Refactored Code Run Time for 2018 Stock Data
+### Refactored VBA Code Run Time for 2018 Stock Data
 ![2018 Refactored Code Run Time]( https://github.com/blueschistrocks/stock-analysis/blob/8876a6657153bf9fcba45d1d8449595bcbff474a/Challenge/Resources/VBA_Challenge_2018.png)
 
-## Refactored Code Excel Analysis Output 
+## Refactored VBA Code Excel Analysis Output 
 
 Below are screenshots the of analysis output of the refactored VBA Code for the stocks in 2017 and 2018.
 
