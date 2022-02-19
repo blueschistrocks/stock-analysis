@@ -10,7 +10,7 @@ The original VBA module was refactored by creating a ticker Index, three output 
 
 ### Refactored VBA Code
 
-Sub AllStocksAnalysisRefactored()
+    Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
     Dim endTime  As Single
 
@@ -135,7 +135,7 @@ Sub AllStocksAnalysisRefactored()
     endTime = Timer
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
-End Sub
+    End Sub
 
 
 ## Results 
