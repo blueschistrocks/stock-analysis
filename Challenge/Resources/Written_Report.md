@@ -6,7 +6,7 @@ Steve (Client) has requested an analysis of multiple stocks over 2017 and 2018 a
 
 ## Refactoring the Code
 
-The original VBA module was refactored by creating a ticker Index, three output arrays for volumes, starting prices and ending prices.  The Ticker Index was created and set to zero. The Ticker Index will allow each ticker in the ticker array to be accessed by three output arrays. Each output array was set to 12 to indicate the number of elements in the arrays to match the number of elements is in the ticker array. Setting up the output arrays in this way will allow the code to loop through the data for each ticker to retrieve the volume, starting and ending prices more efficiently, therefore excluding the need for a nested loop.  A For Loop was created to initialize the ticker Volumes to zero. A non-nested for loop was created to loop through the data worksheet. Iterations were set to loop from the first row of data through the last row of data.  The loop evaluates the retrieves total volume for the current ticker and then the loop retrieves the start price and ending price of the current ticker second then lastly the loop increases the tickerIndex by one. This loop will continue until all twelve tickers have been looped through.
+The original VBA module was refactored by creating a ticker Index, three output arrays for volumes, starting prices and ending prices.  The Ticker Index was created and set to zero. The Ticker Index will allow each ticker in the ticker array to be accessed by three output arrays. Each output array was set to 12 to indicate the number of elements in the arrays to match the number of elements is in the ticker array. Setting up the output arrays in this way will allow the code to loop through the data for each ticker to retrieve the volume, starting and ending prices more efficiently, therefore excluding the need for a nested loop.  A For Loop was created to initialize the ticker Volumes to zero. A non-nested for loop was created to loop through the data worksheet. Iterations were set to loop from the first row of data through the last row of data.  The loop retrieves total volume for the current ticker and then retrieves the start price and ending price of the current ticker then lastly the loop increases the tickerIndex by one. This loop will continue until all twelve tickers have been looped through.
 
 ### Code
 
@@ -144,7 +144,7 @@ The refactored code ran the analysis in approximately ¼ of a second where the o
 
 ## Advantages of Refactoring
 
-The advantage of refactoring the was making the code significantly faster, which will make the code more efficient when analyzing a larger number of stocks.  Another advantage is make the code cleaner and more readable. Personally, I found the advantage of refactoring was being able to better understand how the code works by reworking the code.
+The advantage of refactoring the was making the code significantly faster, which will make the code more efficient when analyzing a larger number of stocks.  Another advantage is making the code cleaner and more readable. Personally, I found the advantage of refactoring was being able to better understand how the code works by reworking the code.
 
 ## Disadvantages of Refactoring
 
