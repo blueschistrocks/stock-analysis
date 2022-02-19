@@ -159,8 +159,7 @@ There really are no disadvantages in refactoring code for a client with the exce
 The advantage of refactoring the original code was making the code significantly faster, which will make the code more efficient when analyzing a larger number of stocks.  Another advantage was making the code cleaner and more readable for someone reviewing or trying to understand how the VBA code works.
 
 ### Disadvantages
-A disadvantage of refactoring the original VBA is that the original VBA code works well. Unless a client routinely needs to analyze thousands of stocks a VBA code that already works well for a smaller analysis could be more efficient than spending the time to refactor the code.![image](https://user-images.githubusercontent.com/89749126/154819211-006c7a00-f16d-4ad0-bd0a-8d60a88b2ae1.png)
-
+A disadvantage of refactoring the original VBA is that the original VBA code works well. Unless a client routinely needs to analyze thousands of stocks a VBA code that already works well for a smaller analysis could be more efficient than spending the time to refactor the code.
 
 ## Run Times for Original and Refactored VBA Code
 
